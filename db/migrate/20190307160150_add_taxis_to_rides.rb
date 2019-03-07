@@ -1,5 +1,5 @@
 class AddTaxisToRides < ActiveRecord::Migration
   def change
-    add_column :rides, :rides, :string
+    add_column :rides, :taxi_id, :integer
   end
 end
